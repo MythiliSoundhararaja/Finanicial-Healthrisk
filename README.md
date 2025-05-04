@@ -26,12 +26,11 @@ To develop a machine learning model that can predict an individual's financial r
 
 ## 📦 Libraries Used
 
-- **pandas** – For data manipulation and analysis  
-- **numpy** – For numerical computations  
-- **matplotlib** – For static data visualization  
-- **seaborn** – For statistical plotting  
-- **scikit-learn** – For model building and evaluation  
-- **shap** – For model interpretability and explainability  
+-  **pandas** – For data manipulation and analysis  
+-  **numpy** – For numerical computations
+-  **LabelEncoder** – For encoding categorical labels  
+-  **RandomForestClassifier** – The main ML model
+-  **imblearn (SMOTE)** – For handling class imbalance through synthetic oversampling  
 
 ---
 
